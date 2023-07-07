@@ -1,0 +1,521 @@
+/* Protagonisti */
+.Protagonisti_main_section {
+  background-color: #f2bb07;
+  padding-top: 217px;
+  padding-bottom: 161px;
+}
+.container {
+  max-width: 1440px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.stagioni_section {
+  margin-top: 186px;
+  margin-bottom: 190px;
+}
+.stagioni,
+.protagonisti {
+  display: flex;
+  justify-content: center;
+}
+.protagonisti_section,
+.stagioni_section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 128px;
+}
+.protagonisti_section img,
+.stagioni_section img {
+  width: 628px;
+  height: 404px;
+}
+.protagonisti_wrapper {
+  width: 377px;
+}
+.protagonisti_wrapper h2 {
+  color: #000;
+  font-family: "Outfit", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.96px;
+  margin-bottom: 15px;
+}
+.stagioni_wrapper h2 {
+  color: #000;
+  text-align: right;
+  font-family: "Outfit", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.96px;
+  margin-bottom: 15px;
+}
+.protagonisti_wrapper p {
+  color: #000;
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 16px;
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+.stagioni_wrapper {
+  width: 377px;
+}
+.stagioni_wrapper p {
+  color: #000;
+  text-align: right;
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 16px;
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+.wikipedia_button_wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.wikipedia_button {
+  padding: 10px 25px;
+  border-radius: 5px;
+  border: 2px solid #c3fc08;
+  background: #fff;
+  color: #c3fc08;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.wikipedia_button:hover {
+  background: #c3fc08;
+  transition: all 0.5s;
+  color: #121701;
+  border-color: #121701;
+}
+
+/* prices section */
+.prices_section {
+  background-color: #1f2900;
+  padding-top: 202px;
+  padding-bottom: 261px;
+}
+.prices_section h2 {
+  color: #aac943;
+  font-size: 48px;
+  font-family: "Outfit", sans-serif;
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.96px;
+  margin-bottom: 112px;
+}
+.prices_wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 128px;
+}
+.digital_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.digital_wrapper img {
+  margin-bottom: 15px;
+  width: 304px;
+  height: 304px;
+  /* height: auto; */
+  /* max-width: 100%; */
+  height: auto;
+}
+.digital_wrapper h3 {
+  color: #aac943;
+  text-align: center;
+  font-size: 32px;
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.32px;
+  margin-bottom: 40px;
+}
+.digital_wrapper p {
+  color: #aac943;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Libre Franklin", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+.golden_awards_wrapper img {
+  margin-bottom: 18px;
+  height: 412px;
+  max-width: 412px;
+  /* height: auto; */
+}
+.golden_awards_wrapper h3 {
+  color: #aac943;
+  text-align: center;
+  font-size: 32px;
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.32px;
+  margin-bottom: 40px;
+}
+.golden_awards_wrapper p {
+  color: #aac943;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Libre Franklin", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+/* la serie page */
+.internal_nav_list {
+  display: flex;
+  gap: 42px;
+  list-style: none;
+  align-items: center;
+}
+.internal_nav_list li a {
+  text-decoration: none;
+  color: #121701;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Libre Franklin", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  text-decoration-line: underline;
+  text-underline-offset: 2px;
+}
+.series_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 150px;
+  height: 657.5px;
+}
+.series_wrapper h1 {
+  color: #000;
+  font-size: 64px;
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.hero_section img {
+  width: 319px;
+  height: 501px;
+  background: #f2bb07;
+  /* width: 100%;  */
+}
+
+.cast_section {
+  background-color: #c3fc08;
+  padding-top: 203px;
+  padding-bottom: 106px;
+}
+.cast_section_wrapper h1 {
+  color: #000;
+  font-size: 48px;
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.96px;
+  text-align: center;
+  margin-bottom: 101px;
+}
+
+.cast_container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* col-gap: 10px; */
+  row-gap: 58px;
+  margin-bottom: 52px;
+}
+
+.cast_container_wrapper {
+  position: relative;
+}
+
+.image-container {
+  position: relative;
+  /* width: 225px; */
+  height: 501px;
+  flex-shrink: 0;
+}
+
+.image-container img {
+  width: 250px;
+  height: 501px;
+  transform-origin: center bottom; /* Set the transformation origin */
+  transform: skewX(-10deg);
+}
+
+.text-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 250px;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.8
+  ); /* Adjust the background color and opacity */
+  color: #fff; /* Adjust the text color */
+  padding: 31px 22px 61px 22px;
+  transform-origin: center bottom; /* Set the transformation origin */
+  transform: skewX(-10deg);
+  text-align: center;
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.12px;
+}
+
+/* curiosity section */
+.curiosity_section {
+  background: #1f2900;
+  padding-top: 203px;
+  padding-bottom: 246px;
+}
+.curiosity_section_wrapper h1 {
+  color: #aac943;
+  font-size: 48px;
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.96px;
+  text-align: center;
+  margin-bottom: 117px;
+}
+.curiosity_container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 21px;
+  row-gap: 98px;
+}
+.curiosity_container_wrapper {
+  width: 628px;
+}
+.curiosity_container_wrapper h2 {
+  color: #aac943;
+  font-size: 40px;
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.6px;
+}
+.curiosity_container_wrapper img {
+  width: 628px;
+  height: 404px;
+  margin-top: 48px;
+  margin-bottom: 74px;
+}
+.curiosity_container_wrapper:last-child img {
+  margin-top: 98px;
+}
+.curiosity_container_wrapper p {
+  color: #aac943;
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+/* trama_section */
+.trama_section {
+  background: #f2bb07;
+  padding-top: 207px;
+  padding-bottom: 144px;
+}
+.trama_section_wrapper h1 {
+  color: #000;
+  font-size: 48px;
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.96px;
+  text-align: center;
+}
+.trama_section_wrapper img {
+  padding-top: 112px;
+  padding-bottom: 144px;
+  width: 100%;
+  height: 836px;
+}
+.trama_section_wrapper p {
+  color: #000;
+  font-size: 16px;
+  font-family: "Libre Franklin", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+}
+.trama_section_wrapper:nth-child(1) p {
+  margin-bottom: 80px;
+}
+.trama_section_wrapper span {
+  color: #000;
+  font-size: 16px;
+  font-family: "Libre Franklin", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+.trama_section_container h2 {
+  font-size: 40px;
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  margin-bottom: 40px;
+}
+.trama_section_container p {
+  color: #000;
+  font-size: 16px;
+  font-family: "Libre Franklin", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  margin-bottom: 80px;
+}
+/* gallery section */
+.gallery_section {
+  background-color: #f2bb07;
+  padding-top: 224px;
+  padding-bottom: 160px;
+}
+.gallery_section_wrapper p {
+  padding-bottom: 125px;
+  color: #000;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Libre Franklin", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+.gallery_section_wrapper span {
+  font-size: 16px;
+  font-family: "Libre Franklin", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+.gallery_section_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 59px;
+  row-gap: 65px;
+}
+.gallery_section_container img {
+  width: 427px;
+  height: 402px;
+  transition: transform 0.3s ease;
+}
+.gallery_section_container img:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+/* carousel section */
+.carousel_section {
+  padding-top: 203px;
+  padding-bottom: 294px;
+  background-color: #1f2900;
+}
+.carousel_section_wrapper h1 {
+  color: #aac943;
+  font-size: 48px;
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.96px;
+  margin-bottom: 184px;
+  text-align: center;
+}
+
+.slide-container {
+  margin: auto;
+  position: relative;
+  width: 830px;
+  height: 501px;
+}
+
+.slide img {
+  width: 830px;
+  height: 501px; 
+  transition: opacity 1s ease;
+}
+
+.arrow {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  height: 501px; 
+  color: black;
+  background: rgba(217, 217, 217, 0.10);
+  padding: 200px 12px;
+  /* border-radius: 50%; */
+  /* font-weight: bold; */
+  /* font-size: 25px; */
+  
+}
+
+.next {
+  right: -120px;
+}
+
+.prev {
+  left: -120px;
+}
+
+.slide .caption {
+  position: absolute;
+  bottom: 0px;
+  width: 830px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 26px 0px 24px 0px;
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+  font-family: Outfit;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  transition: opacity 1s ease;
+}
+
+.slide {
+  display: none;
+}

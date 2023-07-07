@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Franklin&family=Montserrat:wght@400;700&family=Mulish:wght@400;700&family=Outfit:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <link rel="stylesheet" href="global.css" />
+  <link rel="stylesheet" href="common.css" />
+  <!-- <link rel="stylesheet" href="script.js" /> -->
+  <script src="script.js"></script>
+
+  <body>
+    <!-- Header section -->
+    <nav>
+      <div class="navbar">
+        <div class="content_nav">
+          <div>
+            <p class="nav_logo"><a href="index.html">Skam Italia</a></p>
+          </div>
+          <div class="nav_links">
+            <ul class="nav_list">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="le-series.html">La serie</a></li>
+              <li><a class="active" href="gallery.html">Gallery</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- hero section -->
+    <section class="hero_section">
+      <div class="series_wrapper">
+        <h1>Gallery</h1>
+      </div>
+    </section>
+    <!-- gallery section -->
+    <section class="gallery_section">
+      <div class="container gallery_section_wrapper">
+        <p>
+          Questa è la sezione <span>Gallery</span> dedicata a Skam Italia
+          presente sul nostro sito. Qui troverete una raccolta di immagini
+          selezionate con cura, che catturano i momenti più significativi e
+          suggestivi della serie. Sfogliando la nostra galleria, avrete
+          l'opportunità di immergervi nell'atmosfera unica di "Skam Italia" e di
+          rivivere le emozioni che hanno caratterizzato i protagonisti. Dalle
+          intense scene di gruppo alle espressioni più intime dei personaggi,
+          ogni foto racconta una storia e vi permetterà di apprezzare l'impegno
+          e la maestria dei creatori di questa serie. Vi invitiamo a prendervi
+          il tempo necessario per esplorare la nostra Gallery e a lasciarvi
+          coinvolgere dalla magia di "Skam Italia".
+        </p>
+        <div class="gallery_section_container">
+          <img src="/public/images/gallery/1.jpg" alt="gallery image" />
+          <img src="/public/images/gallery/2.jfif" alt="gallery image" />
+          <img src="/public/images/gallery/3.jfif" alt="gallery image" />
+          <img src="/public/images/gallery/4.jpg" alt="gallery image" />
+          <img src="/public/images/gallery/5.jpg" alt="gallery image" />
+          <img src="/public/images/gallery/6.jpeg" alt="gallery image" />
+          <img src="/public/images/gallery/7.webp" alt="gallery image" />
+          <img src="/public/images/gallery/8.png" alt="gallery image" />
+          <img src="/public/images/gallery/9.jpg" alt="gallery image" />
+        </div>
+      </div>
+    </section>
+    <!-- carousel section -->
+    <section class="carousel_section">
+      <div class="container carousel_section_wrapper">
+        <h1>I Protagonisti</h1>
+
+        <div class="slide-container">
+          <div class="slide">
+            <img
+              src="/public/images/gallery/Ludovica-Martino.jpg"
+              alt="Ludovica Martino"
+            />
+            <h2 class="caption">Ludovica Martino</h2>
+          </div>
+          <div class="slide">
+            <img
+              src="/public/images/gallery/Federico-Cesari.jpg"
+              alt="Federico Cesari"
+            />
+            <h2 class="caption">Federico Cesari</h2>
+          </div>
+          <div class="slide">
+            <img
+              src="/public/images/gallery/Benedetta-Gargari.jpg"
+              alt="Benedetta-Gargari"
+            />
+            <h2 class="caption">Benedetta-Gargari</h2>
+          </div>
+          <div class="slide">
+            <img
+              src="/public/images/gallery/Beatrice-Bruschi.jpg"
+              alt="Beatrice Bruschi"
+            />
+            <h2 class="caption">Beatrice Bruschi</h2>
+          </div>
+          <span class="arrow prev" onclick="controller(-1)"
+            ><img src="/public/svgs/prev-arrow.svg" alt=""
+          /></span>
+          <span class="arrow next" onclick="controller(1)"
+            ><img src="/public/svgs/next-arrow.svg" alt=""
+          /></span>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="footer_section">
+      <div class="skam-italia2">Skam Italia</div>
+      <section class="container">
+        <div class="footer_child">
+          <div class="footer_wrapper">
+            <div class="footer_authenticity">
+              <p>
+                Esplora le sfide e le emozioni dell'adolescenza con Skam Italia,
+                una serie che celebra la diversità e ispira autenticità.
+              </p>
+              <p>© [2023] Tutti i diritti riservati.</p>
+            </div>
+            <div class="social_links">
+              <a href="https://www.facebook.com/SkamItalia" target="_blank"
+                ><img src="/public/svgs/facebook.svg" alt="facebook"
+              /></a>
+              <a
+                href="https://www.instagram.com/skam___ita/?hl=it"
+                target="_blank"
+                ><img src="/public/svgs/instagram.svg" alt="instagram"
+              /></a>
+              <a
+                href="https://youtube.com/playlist?list=PL2apZ22BIMLLWVYquuIXByPRzQ08mvrTb"
+                target="_blank"
+                ><img src="/public/svgs/youtuve.svg" alt="youtube"
+              /></a>
+            </div>
+          </div>
+          <div class="footer_links">
+            <ul class="footer_list">
+              <li><a href="index.html">Home</a></li>
+              <li>
+                <a href="le-series.html">La serie</a>
+                <ul class="sublist">
+                  <li><a href="le-series.html#trama">Trama</a></li>
+                  <li><a href="le-series.html#cast">Cast</a></li>
+                  <li><a href="le-series.html#curiosita">Curiosità</a></li>
+                </ul>
+              </li>
+              <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
