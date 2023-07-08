@@ -31,6 +31,17 @@
   width: 628px;
   height: 404px;
 }
+
+.protagonisti_section img:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.stagioni_section img:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
 .protagonisti_wrapper {
   width: 377px;
 }
@@ -135,8 +146,6 @@
   margin-bottom: 15px;
   width: 304px;
   height: 304px;
-  /* height: auto; */
-  /* max-width: 100%; */
   height: auto;
 }
 .digital_wrapper h3 {
@@ -210,7 +219,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  row-gap: 150px;
   height: 657.5px;
 }
 .series_wrapper h1 {
@@ -382,12 +390,7 @@
   margin-bottom: 80px;
 }
 .trama_section_wrapper span {
-  color: #000;
-  font-size: 16px;
-  font-family: "Libre Franklin", sans-serif;
-  font-style: normal;
   font-weight: 700;
-  line-height: 140%;
 }
 .trama_section_container h2 {
   font-size: 40px;
@@ -434,7 +437,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 59px;
-  row-gap: 65px;
+  row-gap: 65px; 
 }
 .gallery_section_container img {
   width: 427px;
@@ -485,16 +488,10 @@
   color: black;
   background: rgba(217, 217, 217, 0.10);
   padding: 200px 12px;
-  /* border-radius: 50%; */
-  /* font-weight: bold; */
-  /* font-size: 25px; */
-  
 }
-
 .next {
   right: -120px;
 }
-
 .prev {
   left: -120px;
 }
@@ -508,14 +505,13 @@
   color: #fff;
   text-align: center;
   font-size: 40px;
-  font-family: Outfit;
+  font-family: "Outfit", sans-serif;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   letter-spacing: 0.6px;
   transition: opacity 1s ease;
 }
-
 .slide {
   display: none;
 }

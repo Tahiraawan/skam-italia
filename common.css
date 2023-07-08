@@ -24,7 +24,7 @@ body svg {
 }
 
 /* navbar */
-/* header {
+header {
   position: fixed;
   top: 0;
   left: 0;
@@ -32,7 +32,8 @@ body svg {
   height: 60px;
   background-color: #f1f1f1;
   transition: top 0.3s ease-in-out;
-} */
+  z-index: 50;
+}
 
 header.hide {
   top: -60px;
@@ -95,8 +96,7 @@ background-size: cover;
 }
 .home_hero_section {
 width: 100%;
-/* max-width: 1440px;
-margin: auto; */
+margin-top: 104px;
 height: 657.5px;
 position: relative;
 }

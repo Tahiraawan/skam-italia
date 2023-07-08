@@ -1,18 +1,18 @@
-// var previousScroll = window.pageYOffset;
+var previousScroll = window.pageYOffset;
 
-// window.addEventListener('scroll', function() {
-//   var currentScroll = window.pageYOffset;
+window.addEventListener('scroll', function() {
+  var currentScroll = window.pageYOffset;
   
-//   if (currentScroll > previousScroll) {
-//     // Scrolling down
-//     document.querySelector('header').classList.add('hide');
-//   } else {
-//     // Scrolling up
-//     document.querySelector('header').classList.remove('hide');
-//   }
+  if (currentScroll > previousScroll) {
+    // Scrolling down
+    document.querySelector('header').classList.add('hide');
+  } else {
+    // Scrolling up
+    document.querySelector('header').classList.remove('hide');
+  }
   
-//   previousScroll = currentScroll;
-// });
+  previousScroll = currentScroll;
+});
 
 // for carousal
 let flag = 0;
