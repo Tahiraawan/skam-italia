@@ -25,19 +25,19 @@ body svg {
 
 /* navbar */
 header {
-  position: fixed;
+  /* position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 60px;
   background-color: #f1f1f1;
   transition: top 0.3s ease-in-out;
-  z-index: 50;
+  z-index: 50; */
 }
 
-header.hide {
+/* header.hide {
   top: -60px;
-}
+} */
 
 .navbar {
   background-color: #1f2900;
@@ -63,6 +63,7 @@ header.hide {
   font-weight: 400;
   line-height: normal;
   color: #c3fc08;
+  text-decoration: none;
 }
 .nav_list{
   display: flex;
@@ -96,7 +97,6 @@ background-size: cover;
 }
 .home_hero_section {
 width: 100%;
-margin-top: 104px;
 height: 657.5px;
 position: relative;
 }
@@ -182,8 +182,6 @@ position: relative;
   flex-direction: column;
   row-gap: 27px;
 }
-.footer_links {
-}
 .footer_list{
   display: flex;
   flex-direction: column;
@@ -204,10 +202,12 @@ position: relative;
   text-transform: uppercase;
 }
 .footer_list li:hover {
-  color: #F2BB07;
+  color: #192002;
   text-decoration: underline;
 }
-.footer_list li a:visited {
+.footer_list li a:active,
+a:visited,
+a:focus {
   color: inherit;
 }
 .footer_list .sublist {
@@ -225,6 +225,8 @@ position: relative;
   column-gap: 60px;
   align-items: center;
 }
+
+
 
 
 

@@ -31,17 +31,6 @@
   width: 628px;
   height: 404px;
 }
-
-.protagonisti_section img:hover {
-  transform: scale(1.05);
-  cursor: pointer;
-  transition: transform 0.3s ease;
-}
-.stagioni_section img:hover {
-  transform: scale(1.05);
-  cursor: pointer;
-  transition: transform 0.3s ease;
-}
 .protagonisti_wrapper {
   width: 377px;
 }
@@ -98,21 +87,21 @@
 .wikipedia_button {
   padding: 10px 25px;
   border-radius: 5px;
-  border: 2px solid #c3fc08;
-  background: #fff;
-  color: #c3fc08;
+  
   font-size: 20px;
   font-family: "Montserrat", sans-serif;
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
-  line-height: normal;
-}
-.wikipedia_button:hover {
-  background: #c3fc08;
+  line-height: normal;  background: #c3fc08;
   transition: all 0.5s;
   color: #121701;
   border-color: #121701;
+}
+.wikipedia_button:hover {
+border: 2px solid #c3fc08;
+  background: #fff;
+  color: #c3fc08;
 }
 
 /* prices section */
