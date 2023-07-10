@@ -24,8 +24,11 @@ header {
   z-index: 100;
 }
 .dummy-area{
-  width: 1440px;
-  height: 100px;
+  height: 100px; width: 100%;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  
 }
 .navbar {
   background-color: #1f2900;
