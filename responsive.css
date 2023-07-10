@@ -94,12 +94,7 @@
   .trama_section_wrapper p {
     font-size: 16px;
   }
-  .trama_section_wrapper img {
-    width: 100%;
-    max-width: 100%;
-    object-fit: cover;
-    height: auto;
-  }
+ 
   .gallery_section_container div {
     width: 100%;
     max-width: 100%;

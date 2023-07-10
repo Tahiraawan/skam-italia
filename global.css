@@ -347,11 +347,16 @@
   letter-spacing: 0.96px;
   text-align: center;
 }
-.trama_section_wrapper img {
-  padding-top: 112px;
-  padding-bottom: 144px;
+.trama_section_wrapper .trama_img {
   width: 100%;
-  height: 836px;
+  height: 100%;
+  border: 2px solid red;
+  margin-top: 112px;
+  margin-bottom: 79px;
+}
+.trama_section_wrapper img {
+  width: 100%;
+  height: auto;
 }
 .trama_section_wrapper p {
   color: #000;
