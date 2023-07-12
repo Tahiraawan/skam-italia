@@ -73,7 +73,7 @@ header {
   line-height: 140%;
 }
 .nav_list li a:hover {
-  color: #bce82c;
+  color: #c3ff00d3;
 }
 .nav_list .active {
   text-decoration: underline;
@@ -189,8 +189,9 @@ header {
   text-transform: uppercase;
 }
 .footer_list li:hover {
-  color: #192002;
+  color: #e6b412;
   text-decoration: underline;
+  transition: all 0.1s;
 }
 .footer_list li a:active,
 a:visited,

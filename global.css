@@ -246,32 +246,28 @@
   row-gap: 58px;
   margin-bottom: 52px;
 }
-.cast_container_wrapper {
-  position: relative;
-}
 .image-container {
   position: relative;
+  max-width: 319px;
   height: 501px;
-  flex-shrink: 0;
 }
 .image-container img {
-  width: 250px;
-  height: 501px;
-  transform-origin: center bottom;
+  height: 100%;
+  width: 73%;
+  transform-origin: bottom center;
   transform: skewX(-10deg);
+  transform-origin: bottom;
+  
 }
+
 .text-overlay {
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 250px;
+  width: 100%;
   background-color: rgba(0, 0, 0, 0.8);
   color: #fff;
   padding: 31px 22px 61px 22px;
-  transform-origin: center bottom;
-  transform: skewX(-10deg);
-  text-align: center;
-  color: #fff;
   text-align: center;
   font-size: 24px;
   font-family: "Outfit", sans-serif;
@@ -279,6 +275,11 @@
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.12px;
+  width: 73%;
+  transform-origin: bottom center;
+  transform: skewX(-10deg);
+  transform-origin: bottom;
+  object-fit: cover;
 }
 /* curiosity section */
 .curiosity_section {
@@ -348,14 +349,19 @@
   text-align: center;
 }
 .trama_section_wrapper .trama_img {
-  width: 100%;
-  height: 100%;
+  max-width: 1276px;
+  max-height: 636px;
+  display: flex;
+  justify-content: center;
   margin-top: 112px;
   margin-bottom: 79px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .trama_section_wrapper img {
   width: 100%;
   height: auto;
+  object-fit: contain;
 }
 .trama_section_wrapper p {
   color: #000;
@@ -419,13 +425,14 @@
   row-gap: 65px;
 }
 .gallery_section_container div {
-  width: 427px;
+  max-width: 386px;
   height: 402px;
-  transition: transform 0.3s ease;
 }
 .gallery_section_container div img {
   width: 100%;
   height: 100%;
+  transition: transform 0.3s ease;
+  /* object-fit: contain; */
 }
 .gallery_section_container img:hover {
   transform: scale(1.05);

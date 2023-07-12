@@ -9,6 +9,7 @@
     margin-right: -95px;
     flex: 1;
   }
+  
 }
 @media screen and (max-width: 1440px) {
   .home_hero_section div .skam,
@@ -50,10 +51,6 @@
     margin-top: 60px;
     margin-bottom: 120px;
   }
-  .gallery_section_container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
   .prices_wrapper {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -94,13 +91,6 @@
   .trama_section_wrapper p {
     font-size: 16px;
   }
- 
-  .gallery_section_container div {
-    width: 100%;
-    max-width: 100%;
-    object-fit: contain;
-    height: auto;
-  }
   .gallery_section_wrapper p {
     font-size: 26px;
   }
@@ -134,6 +124,13 @@
   }
 }
 @media screen and (max-width: 1366px) {
+  .cast_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 58px;
+    margin-bottom: 52px;
+    place-items: center;
+  }
   .curiosity_container_wrapper img {
     width: 100%;
     height: 404px;
@@ -146,17 +143,10 @@
   .series_wrapper {
     height: 464.5px;
   }
-  .gallery_section {
-    padding-top: 160px;
-    padding-bottom: 160px;
-  }
-  .gallery_section_container div {
-    width: 100%;
-    height: 588px;
-  }
+  
   .gallery_section_wrapper p {
     padding-bottom: 100px;
-    font-size: 25px;
+    font-size: 23px;
   }
   .carousel_section_wrapper h1 {
     font-size: 80px;
@@ -207,6 +197,12 @@
   .curiosity_container_wrapper h2 {
     text-align: center;
   }
+  .gallery_section_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 0px;
+    place-items: center;
+  }
 }
 @media screen and (max-width: 1280px) {
   .series_wrapper {
@@ -215,18 +211,23 @@
   .series_wrapper h1 {
     font-size: 87px;
   }
-  .gallery_section {
-    padding-top: 160px;
-    padding-bottom: 160px;
-  }
-  .gallery_section_container {
+ 
+   .gallery_section_container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    place-items: center;
   }
-  .gallery_section_container img {
+  .gallery_section_container div {
+    max-width: 386px;
+    max-height: 402px;
+  transition: transform 0.3s ease;
+  object-fit: contain;
+ } 
+   .gallery_section_container div img {
     width: 100%;
-    height: 588px;
-  }
+    height: 100%;
+    
+  } 
   .gallery_section_wrapper p {
     padding-bottom: 100px;
     font-size: 25px;
@@ -276,14 +277,6 @@
   }
   .series_wrapper h1 {
     font-size: 87px;
-  }
-  .gallery_section {
-    padding-top: 160px;
-    padding-bottom: 160px;
-  }
-  .gallery_section_container img {
-    width: 100%;
-    height: 588px;
   }
   .gallery_section_wrapper p {
     padding-bottom: 100px;
