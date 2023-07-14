@@ -247,24 +247,24 @@
   margin-bottom: 52px;
 }
 .image-container {
+
   position: relative;
-  max-width: 319px;
-  height: 501px;
+  /* width: 319px;
+height: 501px; */
 }
 .image-container img {
-  height: 100%;
-  width: 73%;
-  transform-origin: bottom center;
+  /* transform-origin: bottom center;
   transform: skewX(-10deg);
-  transform-origin: bottom;
+  transform-origin: bottom; */
+  object-fit: cover;
+  /* width: 100%; */
+  transform: skewX(-10deg);
   
 }
-
 .text-overlay {
   position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
+  bottom: 4px;
+  left: -34px;
   background-color: rgba(0, 0, 0, 0.8);
   color: #fff;
   padding: 31px 22px 61px 22px;
@@ -275,11 +275,11 @@
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.12px;
-  width: 73%;
-  transform-origin: bottom center;
+  width: 321px;
+  /* transform-origin: bottom center;
   transform: skewX(-10deg);
-  transform-origin: bottom;
-  object-fit: cover;
+  transform-origin: bottom; */
+  transform: skewX(-10deg);
 }
 /* curiosity section */
 .curiosity_section {
@@ -418,26 +418,38 @@
   font-weight: 700;
   line-height: 140%;
 }
-.gallery_section_container {
+.gallery_container {
+  display: flex;
+  column-gap: 59px;
+  margin-bottom: 65px;
+  justify-content: center;
+}
+
+.gallery_container .gallery_container_img { 
+   /* width:33.33px; */
+   transition: transform 0.3s ease;
+}
+.gallery_container .gallery_container_img:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+/* .gallery_section_container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 59px;
   row-gap: 65px;
-}
-.gallery_section_container div {
+  place-items: center;
+} */
+
+/* .gallery_section_container img {
   max-width: 386px;
   height: 402px;
-}
-.gallery_section_container div img {
-  width: 100%;
-  height: 100%;
   transition: transform 0.3s ease;
-  /* object-fit: contain; */
 }
 .gallery_section_container img:hover {
   transform: scale(1.05);
   cursor: pointer;
-}
+} */
 /* carousel section */
 .carousel_section {
   padding-top: 203px;
@@ -500,3 +512,4 @@
 .slide {
   display: none;
 }
+ 
